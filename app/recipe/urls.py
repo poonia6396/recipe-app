@@ -13,7 +13,7 @@ from recipe.views import RecipeViewSet
 app_name = 'recipe'
 
 router = DefaultRouter()
-router.register('recipes',RecipeViewSet)
+router.register('recipes', RecipeViewSet)
 
 
 urlpatterns = [
